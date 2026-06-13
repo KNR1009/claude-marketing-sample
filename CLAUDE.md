@@ -1,37 +1,14 @@
-# CLAUDE.md
+# 会社・人格定義
+- 株式会社サードスコープ。AI研修・AI導入支援を提供
+- トーン: 専門的だが平易。誇張表現は使わない
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+# 品質基準
+- 数字・固有名詞は必ず出典を確認してから書く
+- 断定できないことは「〜とされる」と書く
 
-> **Status:** このリポジトリはまだ空です。プロジェクトが立ち上がったら、以下のプレースホルダーを実際の内容で埋めてください。
+# データレイヤー
+- data/atoms.csv: コンテンツの種（日付, ネタ, 出典URL, ステータス）
+- 記事を書く前に必ず atoms.csv を確認すること
 
-## Project Overview
-
-<!-- このプロジェクトの目的・対象ユーザー・解決する課題を1〜2段落で記述する -->
-- 目的:
-- 技術スタック:
-- 主要なエントリポイント:
-
-## Commands
-
-<!-- 実際に使うコマンドが決まったら埋める。例:
-- Build:        `<command>`
-- Dev / Run:    `<command>`
-- Lint:         `<command>`
-- Format:       `<command>`
-- Test (all):   `<command>`
-- Test (single): `<command>`
--->
-
-## Architecture
-
-<!-- 複数ファイルを読まないと分からない「big picture」をここに書く:
-- レイヤー構成 / ディレクトリの責務
-- データの流れ（リクエスト → 処理 → 永続化 など）
-- 外部サービス・API連携
-- 主要なドメインモデルとその関係
--->
-
-## Conventions
-
-<!-- このコードベース固有の規約（命名・コミット・ブランチ運用など）。
-     一般的な開発プラクティスは書かない。 -->
+# 承認ルール
+- ファイル生成は自動実行OK。外部投稿・送信は必ず確認を取る

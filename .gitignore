@@ -1,0 +1,5 @@
+.env
+data/*.csv
+drafts/
+outputs/
+.claude/settings.local.json
